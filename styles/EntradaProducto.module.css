@@ -1,0 +1,68 @@
+.titulo{
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: none;
+
+
+}
+
+.contenido {
+  padding: 2rem;
+}
+.contenido h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.precio {
+  display: flex;
+  font-weight: 600;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.enlace {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.boton{
+  margin-top: .5rem;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: black;
+  border: none ;
+  padding: .5rem;
+  transition-property: background-color;
+  transition-duration: .3s;
+  background-color: rgba(235, 140, 225, 0.25);
+}
+  .enlace:hover {
+    background-color: rgba(226, 77, 211, 0.5);
+    color: white;
+  
+}
+
+.tienda {
+  display: grid;
+  gap: 3rem;
+  margin: 3rem 2rem;
+}
+
+@media (min-width:768px){
+  .tienda{
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+@media (min-width:992px){
+  .tienda{
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+}

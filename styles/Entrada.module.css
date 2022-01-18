@@ -1,0 +1,28 @@
+
+.enlace {
+  margin-top: .5rem;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: black;
+  border: none;
+  padding: .5rem ;
+  transition-property: background-color;
+  transition-duration: .3s;
+  width: 100%;
+  background-color: rgba(235, 140, 225, 0.25);
+}
+  .enlace:hover {
+    background-color: rgba(226, 77, 211, 0.5);
+    cursor: pointer;
+
+  
+}
+
+.imag:hover {
+cursor: pointer;
+
+}

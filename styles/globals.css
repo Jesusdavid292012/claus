@@ -11,6 +11,21 @@ a {
   text-decoration: none;
 }
 
+[class*="contenedor"] {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+[class*="heading"] {
+  font-weight: 700;
+  text-align: center;
+  font-size: 3rem;
+  width: 3rem 0;
+  color: black;
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
 }

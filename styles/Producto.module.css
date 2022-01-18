@@ -1,0 +1,83 @@
+
+
+.contenido {
+  padding: 2rem;
+  
+}
+ .contenido h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.2; 
+  text-transform: uppercase;
+} 
+.precio {
+  font-weight: 700;
+  text-align: center;
+}
+
+.enlace {
+  margin-top: .5rem;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9rem;
+  border: none;
+  color: black;
+  transition-property: background-color;
+  transition-duration: .3s;
+  background-color: rgba(235, 140, 225, 0.25);
+}
+
+.boton {
+  border: none;
+  background-color: rgba(235, 140, 225, 0.25) ;
+  display: block;
+  width: 100%; 
+  margin-top: .5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9rem;
+  color: black;
+  transition-property: background-color;
+  transition-duration: .3s;
+  background-color: rgba(235, 140, 225, 0.25);
+}
+  .enlace:hover {
+    background-color: rgba(226, 77, 211, 0.5);
+   
+}
+
+
+.container2 {
+  
+  position: relative;
+  width: auto;
+  height: auto;
+ 
+}
+.imagenPromo {
+  position:absolute;
+  top: 0rem;
+  right: .2rem;
+  padding: .3% 1%;
+  font-size: auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: yellow;
+      
+    }
+
+.imagenNew {
+  position:absolute;
+  top: 0rem;
+  right: .2rem;
+  padding: .3% 1%;
+  font-size: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color:white;
+     }

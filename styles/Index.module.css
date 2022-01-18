@@ -1,0 +1,41 @@
+.body{
+  display:block;
+  border: none;
+  
+  padding-top: 1rem;
+  
+}
+
+/* @media (min-width:992px){
+  .body{
+    display: flex;
+    flex-direction: row;
+  }
+} */
+.video{
+  display: flex;
+  
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 236, 238);
+  height: 750;
+  width: 550;
+}
+@media (min-width:992px){
+  .video{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0rem;
+  }}
+
+.productos{
+  display: flex;
+  padding: 1rem ;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  background-color: rgb(236, 232, 232);
+}
